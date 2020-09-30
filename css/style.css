@@ -1,0 +1,323 @@
+:root {
+	--primary-font: 'Source Sans Pro', sans-serif;
+	--secondary-font: 'Playfair Display', serif;
+	--color: #fd665e;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: var(--primary-font);
+	font-weight: 400;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	height: 8rem;
+	padding: 2rem 3.4rem;
+	width: 100%;
+}
+
+.nav-logo {
+	margin-right: 5rem;
+}
+
+.nav-list,
+.footer-nav-list {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-right: auto;
+	font-size: 1.4rem;
+	width: 50%;
+}
+
+.nav-item {
+	cursor: pointer;
+	transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+	color: var(--color);
+}
+
+.nav-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 15%;
+}
+
+.btn {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	text-transform: capitalize;
+	font-size: 1.4rem;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.btn svg {
+	height: 1.4rem;
+	width: 1.4rem;
+}
+
+.btn-red {
+	background-color: var(--color);
+	color: #fff;
+	padding: 1rem 2.4rem;
+	border-radius: 4px;
+}
+
+/* ****************************** */
+/* HEADER STYLES */
+/* ****************************** */
+
+.header {
+	padding: 2rem 16rem;
+}
+
+.heading-1 {
+	width: 75%;
+	font-size: 12rem;
+	line-height: 12rem;
+	font-family: var(--secondary-font);
+	text-transform: capitalize;
+}
+
+.heading-1 span {
+	color: var(--color);
+}
+
+.paragraph {
+	font-size: 1.4rem;
+	margin-bottom: 3rem;
+}
+
+.header__content {
+	display: flex;
+	flex-direction: row;
+	margin-top: 5rem;
+}
+
+.header__content-text {
+	margin-right: 2rem;
+	padding-top: 1rem;
+}
+
+/* .header__content-image {
+	width: 76.5rem;
+	height: 48rem;
+} */
+
+/* ****************************** */
+/* SECTION DISPLAY */
+/* ****************************** */
+
+.display-section {
+	margin-top: 10rem;
+}
+
+.display-section-text {
+	display: flex;
+	justify-content: space-around;
+	padding: 1rem 16rem;
+}
+
+.display-section-text h2 {
+	margin: 0 auto;
+}
+
+.heading-2 {
+	font-family: var(--secondary-font);
+	font-size: 4.8rem;
+	width: 50%;
+	line-height: 6rem;
+}
+
+.slider-controls {
+	align-self: flex-end;
+}
+
+.slider-controls button {
+	padding: 0 2.4rem;
+}
+
+.slider {
+	margin-top: 4rem;
+	overflow: hidden;
+	display: flex;
+	padding: 1rem 0 1rem 16rem;
+}
+
+.slider-image {
+	margin-right: 4rem;
+}
+
+/* ****************************** */
+/* SECTION FEATURES */
+/* ****************************** */
+
+.features-section {
+	margin-top: 10rem;
+	padding: 1rem 16rem;
+}
+
+.features-section h2 {
+	width: 40%;
+}
+
+.features__content {
+	display: flex;
+	margin-top: 4rem;
+}
+
+.features__container {
+	margin-left: 15rem;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.features__container button {
+	align-self: center;
+}
+
+.features-box {
+	display: flex;
+	margin-bottom: 4.8rem;
+}
+
+.features-text {
+	margin-left: 4rem;
+}
+
+.heading-4 {
+	margin-bottom: 0.8rem;
+	font-size: 1.4rem;
+	color: var(--color);
+}
+
+/* ****************************** */
+/* SECTION TESTIMONIAL */
+/* ****************************** */
+
+.testimonial-section {
+	margin-top: 10rem;
+	padding: 1rem 16rem;
+}
+
+.testimonial-section h2 {
+	width: 40%;
+}
+
+.testimonial-box {
+	margin-top: 4rem;
+}
+
+.testimonial-text {
+	font-size: 2.8rem;
+	width: 62.5%;
+	margin: 0 auto 3rem;
+	position: relative;
+}
+
+.heading-6 {
+	font-size: 1.2rem;
+}
+
+.heading-6 span {
+	color: var(--color);
+}
+
+.testimonial-slider {
+	display: flex;
+	justify-content: space-between;
+	width: 62.5%;
+	margin: 0 auto;
+}
+
+.testimonial-slider .slider-controls {
+	justify-self: flex-end;
+}
+
+/* ****************************** */
+/* SECTION CTA */
+/* ****************************** */
+
+.cta {
+	margin-top: 10rem;
+	padding: 1rem 16rem;
+	display: flex;
+	align-items: center;
+}
+
+.cta h2 {
+	width: 90%;
+	margin-bottom: 5rem;
+}
+
+.cta h2 span {
+	color: var(--color);
+}
+
+.cta-text {
+	margin-left: 6rem;
+}
+
+/* ****************************** */
+/* SECTION PARTNERS */
+/* ****************************** */
+
+.partners {
+	margin-top: 10rem;
+	padding: 1rem 16rem;
+}
+
+.logo-container {
+	margin-top: 1.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* ****************************** */
+/* FOOTER */
+/* ****************************** */
+
+.footer {
+	margin: 10rem 0 4rem;
+	padding: 1rem 16rem;
+	display: flex;
+	align-items: center;
+}
+
+/* ****************************** */
+/* FOOTER NAV LIST STYLES IS SAME WITH NAV LIST*/
+/* ****************************** */
+
+.attribution-text {
+	font-size: 1.6rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.attribution-link {
+	text-decoration: none;
+	color: var(--color);
+	font-weight: bold;
+}
