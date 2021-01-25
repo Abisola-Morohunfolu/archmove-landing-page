@@ -9,4 +9,5 @@ tl.from('.nav', { duration: 0.9, opacity: 0, y: -100, ease: 'power.inOut' })
 		width: 0,
 		left: '100%',
 		ease: 'sine.inOut',
-	});
+	})
+	.from('.display-section', { duration: 0.9, y: 300, opacity: 0, ease: 'power.in' });

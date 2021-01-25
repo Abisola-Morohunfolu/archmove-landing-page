@@ -498,7 +498,11 @@ html {
 	.cta,
 	.partners,
 	.footer {
-		padding: 1rem 5rem;
+		padding: 1rem 3rem;
+	}
+
+	.header {
+		margin-top: 5rem;
 	}
 
 	.heading-1 {
@@ -514,19 +518,20 @@ html {
 
 	.header__content-image {
 		width: 90%;
-		height: 100%;
+		height: 150%;
 		transform: translateX(10%);
 	}
 
 	.header__content-text {
 		background-color: rgba(255, 255, 255, 0.932);
-		width: 70%;
-		transform: translateY(-30%);
+		width: 80%;
+		transform: translateY(-25%);
 		z-index: 3;
+		padding: 2rem;
 	}
 
 	.paragraph {
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 	}
 
 	.heading-2,
@@ -574,7 +579,7 @@ html {
 	}
 
 	.testimonial-slider {
-		width: 80%;
+		width: 85%;
 	}
 
 	.footer {
@@ -602,6 +607,7 @@ html {
 	.attribution-text {
 		background-color: var(--color);
 		padding: 1rem;
+		margin-bottom: 0;
 	}
 
 	.attribution-link {
