@@ -572,6 +572,10 @@ html {
 		width: 60%;
 	}
 
+	.slider-controls button {
+		padding: 0 1.4rem;
+	}
+
 	.testimonial-text {
 		margin: 0 auto 1rem;
 		font-size: 1.8rem;
